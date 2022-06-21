@@ -1,0 +1,113 @@
+public class Super_department 
+{
+	private String Department_Name, Todaywork, workdeadline, istodayaholiday;
+
+	public Super_department()
+	public Super_department(String department_Name, String todaywork, String workdeadline, String istodayaholiday)
+	{
+		this.department_Name = department_Name;
+		this.todaywork = todaywork;
+		this.workdeadline = workdeadline;
+		this.istodayaholiday = istodayaholiday;
+	}
+}
+
+public String getDepartment_Name()
+{
+	return this.Department_Name = Department_Name;
+}
+
+public void setDepartment_Name(String Department_Name){
+	this.Department_Name = Department_Name;
+}
+
+public String getTodaywork()
+{
+	return Todaywork;
+}
+
+public void setTodaywork(String Todaywork){
+	this.Todaywork=Todaywork;
+}
+
+public String getWorkdeadline(){
+	return Workdeadline;
+}
+
+public void setWorkdeadline(String deadline)
+{
+	this.Workdeadline=Workdeadline;
+}
+
+public String getIstodayaholiday(){
+	return Istodayaholiday;
+}
+public void setIstodayaholiday(String Istodayaholiday){
+	this.email = email;
+}
+
+public String toString(){
+	return getClass().getName() + "\n" + name;
+}
+public class Superdepartment extends AdminDepartment
+
+private final String WORK_STATUS
+
+public student(String WORK_STATUS)
+this.WORK_STATUS=WORK_STATUS;
+}
+public String getWorkStatus(){
+	return WORK_STATUS;
+}
+}
+public Admin Department extends Hr department{
+	private String department Name,gettodayswork;
+	private MyDate Getworkdeadline;
+
+	public Hr department(){
+	}
+
+	public Hr department(String department Name, String gettodayswork, MyDate getworkdeadline){
+		this.department Name = department Name;
+		this.gettodayswork = gettodayswork;
+		this.Getworkdeadline = Getworkdeadline;
+	}
+	public String Hr department(){
+		return Hr department;
+	}
+	public void set departmant Name(String department Name){
+		this.department Name = department Name;
+	}
+
+	public String gettodayswork(){
+		return todayswork;
+	}
+
+
+	public MyDate getworkdeadline()
+	{
+		return workdeadline;
+	}
+}
+public class Hrdeparment extends Techdepartment
+{
+	private String departmentName, todaywork;
+	public Techdepartment(){
+
+	}
+
+	public Techdepartment(Stringdeparment_Name, String todaywork){
+		this.department_Name = department_Name ;
+		this.todaywork = todaywork;
+	}
+	public String getdepartment_Name(){
+		return department_Name;
+	}
+
+	public void settodaywork(Stringtoday work)
+	{
+
+		this.todaywork = todaywork;
+	}
+
+}
